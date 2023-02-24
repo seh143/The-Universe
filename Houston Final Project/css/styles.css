@@ -1,0 +1,266 @@
+/* colors, text, decoration, table style */
+
+body {
+    /*the wrapper for the whole body element */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*the purple color scheme*/
+
+.purpleheadingone {
+    /*PH1CSS*/
+    color: #210535;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.purpleheadingtwo {
+    /*PH2CSS*/
+    color: #210535;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.purpleheadingthree {
+    /*PH3CSS*/
+    color: #210535;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.purpleheadingfour {
+    /*PH3CSS*/
+    color: #210535;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.purpleparagraph {
+    /*PPGCSS*/
+    color: #430d4b;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.purplepanel {
+    /*PPCCSS*/
+    background-color: #c874b2;
+}
+
+.purplebackground {
+    /*PBGCSS*/
+    background-color: #f5d5e0;
+}
+
+
+/*the blue color scheme*/
+
+.blueheadingone {
+    /*BH1CSS*/
+    color: #062c43;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.blueheadingtwo {
+    /*BH2CSS*/
+    color: #062c43;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.blueheadingthree {
+    /*BH3CSS*/
+    color: #062c43;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.blueheadingfour {
+    /*BH4CSS*/
+    color: #062c43;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.blueparagraph {
+    /*BPGCSS*/
+    color: #054569;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.bluepanel {
+    /*BPCCSS*/
+    background-color: #9ccddc;
+}
+
+.bluebackground {
+    /*BBGCSS*/
+    background-color: #ced7e0;
+}
+
+
+/*the grey color scheme*/
+
+.greyheadingone {
+    /*GH1CSS*/
+    color: #101b39;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.greyheadingtwo {
+    /*GH2CSS*/
+    color: #101b39;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.greyheadingthree {
+    /*GH3CSS*/
+    color: #101b39;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.greyheadingfour {
+    /*GH4CSS*/
+    color: #101b39;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.greyparagraph {
+    /*GPGCSS*/
+    color: #333136;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.greypanel {
+    /*GPCCSS*/
+    background-color: #b4b1b8;
+}
+
+.greybackground {
+    /*GBGCSS*/
+    background-color: #e9e8ee;
+}
+
+
+/*the orange color scheme*/
+
+.orangeheadingone {
+    /*OH1CSS*/
+    color: #051427;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.orangeheadingtwo {
+    /*OH2CSS*/
+    color: #051427;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.orangeheadingthree {
+    /*OH3CSS*/
+    color: #051427;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.orangeheadingfour {
+    /*OH4CSS*/
+    color: #051427;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.orangeparagraph {
+    /*OPGCSS*/
+    color: #530f1e;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.orangepanel {
+    /*OPCCSS*/
+    background-color: #f8bc04;
+}
+
+.orangebackground {
+    /*OBGCSS*/
+    background-color: #fee495;
+}
+
+
+/*the green color scheme*/
+
+.greenheadingone {
+    /*EH1CSS*/
+    color: #013026;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.greenheadingtwo {
+    /*EH2CSS*/
+    color: #013026;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.greenheadingthree {
+    /*EH3CSS*/
+    color: #013026;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.greenheadingfour {
+    /*EH4CSS*/
+    color: #013026;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.greenparagraph {
+    /*EPGCSS*/
+    color: #014760;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.greenpanel {
+    /*EPCCSS*/
+    background-color: #cbe58e;
+}
+
+.greenbackground {
+    /*EBGCSS*/
+    background-color: #e1ff9c;
+}

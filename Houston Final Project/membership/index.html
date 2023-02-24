@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>The Membership Application Page</title>
+    <link href="../css/grid.css" type="text/css" rel="stylesheet" />
+    <link href="../css/styles.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="pagewrap">
+        <div id="header" class="purplepanel">
+            <img src="../images/logo.jpg" height="100" width="150" id="logo" class="imglogo" />
+
+            <ul>
+                <li class="head larger"><a href="../index.html">Home</a></li>
+                <li class="head larger"><a href="../solarsystem/index.html">Solar System</a></li>
+                <li class="head larger"><a href="../stars/index.html">Stars</a></li>
+                <li class="head larger"><a href="../planets/index.html">Exoplanets</a></li>
+                <li class="head notlarger">Membership</li>
+            </ul>
+        </div>
+        <!--end header-->
+        <div id="main" class="purplebackground">
+            <div id="form" class="purplepanel">
+                <h1 class="purpleheadingone">Membership Application</h1>
+                <form action="thanks.html" method="post">
+                    <p class="purpleparagraph">
+                        First Name:
+                        <input type="text" name="firstname" />
+                    </p>
+                    <p class="purpleparagraph">
+                        Last Name:
+                        <input type="text" name="lastname" />
+                    </p>
+                    <p class="purpleparagraph">
+                        Email:
+                        <input type="text" name="email" />
+                    </p>
+                    <p class="purpleparagraph">
+                        Address:
+                        <input type="text" name="address" />
+                    </p>
+                    <p class="purpleparagraph">
+                        City:
+                        <input type="text" name="city" />
+                    </p>
+                    <p class="purpleparagraph">
+                        State:
+                        <select name="State">
+                        <option value="pa">Pennsylvania</option>
+                        <option value="oh">Ohio</option>
+                        <option value="ny">New York</option>
+                    </select>
+                    </p>
+                    <p class="purpleparagraph">
+                        What is your favorite planet in our solar system?
+                        <br> <input type="radio" name="planet" value="mercury">Mercury
+                        <br> <input type="radio" name="planet" value="venus">Venus
+                        <br> <input type="radio" name="planet" value="earth">Earth
+                        <br> <input type="radio" name="planet" value="mars">Mars
+                        <br> <input type="radio" name="planet" value="jupiter">Jupiter
+                        <br> <input type="radio" name="planet" value="saturn">Saturn
+                        <br> <input type="radio" name="planet" value="uranus">Uranus
+                        <br> <input type="radio" name="planet" value="neptune">Neptune
+                        <br> <input type="radio" name="planet" value="pluto">Pluto
+                        <!--Viva La Pluto-->
+                    </p>
+                    <p class="purpleparagraph">
+                        What topics do you like?
+                        <br> <input type="checkbox" name="topics" value="solarsystem">Solar system
+                        <br> <input type="checkbox" name="topics" value="stars">Stars
+                        <br> <input type="checkbox" name="topics" value="planets">Exoplanets
+                    </p>
+                    <p class="purpleparagraph">
+                        Are you from Earth?
+                        <select name="you">
+                        <option value="y">Yes</option>
+                        <option value="n">No</option>
+                    </select>
+                    </p>
+                    <P class="purpleparagraph">
+                        Click below to sign up for the mailing list
+                        <br><input type="submit" value="Submit" />
+                    </P>
+
+                </form>
+            </div>
+            <!--end form-->
+        </div>
+        <!--end header-->
+    </div>
+    <!--end pagewrap-->
+</body>
+
+</html>

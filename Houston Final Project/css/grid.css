@@ -1,0 +1,212 @@
+/*links, grid layout, margins*/
+
+#pagewrap {
+    /*the div containing both the header and main area*/
+    width: 1440px;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+}
+
+#header {
+    /*the div containing the links to the other sections of the site*/
+    position: fixed;
+    width: 1440px;
+    height: 100px;
+    margin: 10px auto 5px auto;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.head {
+    /*the class for making the header list inline*/
+    display: inline;
+    float: left;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+#logo {
+    /*float the logo image to the right?*/
+    float: left;
+}
+
+#main {
+    /*div contains all main content area*/
+    position: absolute;
+    margin-top: 140px;
+    padding: 10px;
+    width: 1440px;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+#contents {
+    /*the div containing the section's table of contents*/
+    width: 282px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#contents ul {
+    list-style: none;
+}
+
+#info {
+    /*the div formating the whole main information/content area*/
+    width: 1128px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#form {
+    /*the div holding a form control*/
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#top {
+    /* div holds body and facts*/
+    width: 1420px;
+}
+
+#mybody {
+    /*the div holding the homepage body*/
+    float: left;
+    width: 846px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+#myfacts {
+    /*the div holding the homepage sidebar*/
+    float: left;
+    width: 564px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#tables {
+    /*the div containing the homepage tables*/
+    float: left;
+    width: 1420px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+.float {
+    float: left;
+}
+
+.abs {
+    float: none;
+}
+
+.image {
+    margin: 10px;
+}
+
+
+/*link specifications*/
+
+.larger a:link {
+    color: #461123;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.larger a:hover {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.larger a:visited {
+    color: #20622b;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.larger a:active {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.notlarger {
+    color: #000000;
+    font-size: 30px;
+}
+
+.smaller a:link {
+    color: #461123;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.smaller a:hover {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.smaller a:visited {
+    color: #20622b;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.smaller a:active {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.notsmaller {
+    color: #000000;
+    font-size: 15px;
+}
+
+
+/*a series of table elements*/
+
+table,
+td,
+th {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    margin: 15px;
+    width: 1098px;
+}
+
+.home table,
+td,
+th {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    margin: 15px;
+    width: 1390px;
+}
+
+td,
+th {
+    padding: 2px;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+}
